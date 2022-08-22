@@ -1,5 +1,5 @@
 name: my-group
-service_account_id: ajegdahu330s0b044osm
+service_account_id: <s.a.id>
 
 instance_template:
     platform_id: standard-v1
@@ -13,7 +13,7 @@ instance_template:
             type_id: network-hdd
             size: 32g     
     network_interface_specs:
-        - network_id: enpsm8hte091mmc1t9v0
+        - network_id: <n/wid>
           primary_v4_address_spec: { one_to_one_nat_spec: { ip_version: IPV4 }}
     scheduling_policy:
         preemptible: false
